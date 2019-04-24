@@ -1,0 +1,17 @@
+#include<stdio.h>
+ int add(int iVal1,int iVal2);
+  int iVal;
+ void main()
+ {
+   int iVal1, iVal2;
+    
+   printf("Enter 2 pasitive integers/n");
+   scanf("%d%d",&iVal1,&iVal2);
+   add(iVal1,iVal2);
+   printf("after adding iVal is %d",iVal);
+ }
+ int add(iVal1,iVal2)
+ {
+   iVal=iVal1+iVal2;
+    return iVal;
+  }
